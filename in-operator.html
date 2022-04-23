@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const person = {
+            firstName: "Abdur",
+            // firstName1: "Abdur",
+            lastName: "Rahman"
+        }
+        // const result = "firstName1" in person;
+
+        // document.writeln(`<p>${result}</p>`);
+
+        if ("firstName" in person){
+            alert(`Hello ${person.firstName}`);
+        }else {
+            alert("hello");
+        }
+    </script>
+</body>
+</html>
